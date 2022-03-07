@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+import random
+
+#creating list of cards
+card = list(range(5, 103))
+
+choice = random.sample(card, k=2)
+
+
+print(choice, card)
